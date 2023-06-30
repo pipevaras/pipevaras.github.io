@@ -6,8 +6,12 @@ nav .navbar-brand {
   color: white;
 }
 
-nav .navbar-nav {
+nav .nav-link {
   font-family: "Geologica", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   color: white;
+  opacity: 0.8;
+}
+
+h5 .card-title {
 }
