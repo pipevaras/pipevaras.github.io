@@ -1,0 +1,13 @@
+nav {
+  background-color: forestgreen;
+}
+nav .navbar-brand {
+  font-family: "Kalam", cursive;
+  color: white;
+}
+
+nav .navbar-nav {
+  font-family: "Geologica", sans-serif;
+  font-weight: 300;
+  color: white;
+}
