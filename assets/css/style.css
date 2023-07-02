@@ -1,5 +1,18 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(244, 251, 249, 1) 0%,
+    rgba(177, 210, 180, 1) 100%,
+    rgba(34, 194, 34, 1) 100%
+  );
+}
+
+section {
+  margin: 45px;
+}
+
 nav {
-  background-color: forestgreen;
+  background-color: rgb(81, 149, 81);
 }
 nav .navbar-brand {
   font-family: "Kalam", cursive;
@@ -13,5 +26,87 @@ nav .nav-link {
   opacity: 0.8;
 }
 
-h5 .card-title {
+div .principal {
+  background-color: white;
+  width: auto;
+  padding: 0%;
+}
+
+div .container-fluid {
+  height: 3rem;
+}
+
+div .finalcaja {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  font-family: "Geologica", sans-serif;
+}
+
+div .descarcv {
+  border-right: 1px solid lightgray;
+}
+
+hr.faded {
+  clear: both;
+  float: none;
+  width: 100%;
+  height: 2px;
+  margin: 5px;
+  border: none;
+  background: #ddd;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right bottom,
+    color-stop(0, rgb(255, 255, 255)),
+    color-stop(0.1, rgb(221, 221, 221)),
+    color-stop(0.9, rgb(221, 221, 221)),
+    color-stop(1, rgb(255, 255, 255))
+  );
+  background-image: -moz-linear-gradient(
+    left center,
+    rgb(255, 255, 255) 0%,
+    rgb(221, 221, 221) 10%,
+    rgb(221, 221, 221) 90%,
+    rgb(255, 255, 255) 100%
+  );
+}
+
+div .carac1 {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+div .datos {
+  border: 1px solid rgb(81, 149, 81);
+  color: white;
+  background-color: rgb(81, 149, 81);
+}
+
+.card-body {
+  font-family: "Geologica", cursive;
+}
+
+div .row {
+  font-family: "Geologica", cursive;
+  font-size: small;
+}
+
+div .cajadatos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+div .titulo {
+  height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+div .cajainv {
+  height: 20px;
 }
