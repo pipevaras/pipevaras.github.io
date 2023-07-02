@@ -15,8 +15,9 @@ nav {
   background-color: rgb(81, 149, 81);
 }
 nav .navbar-brand {
-  font-family: "Kalam", cursive;
+  font-family: "Amatic SC", cursive;
   color: white;
+  font-size: 3rem;
 }
 
 nav .nav-link {
