@@ -1,0 +1,50 @@
+.intro {
+  margin: 1px;
+  padding: 1em;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  height: 4em;
+  padding: 5em;
+  font-size: 2em;
+  background-image: url("../imgs/ciudades-del-mundo1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(231, 245, 221);
+}
+.header h1 {
+  margin: 0px;
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(219, 225, 248);
+}
+.cities {
+  width: 80%;
+  margin: auto;
+}
+.cities td {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 50%;
+  padding: 2em;
+}
+.cities img {
+  width: 100%;
+  padding: 1em;
+  border: solid 10px #1f34ae;
+}
+.footer {
+  height: 3em;
+  line-height: 3em;
+  background-color: cornflowerblue;
+  color: darkblue;
+  text-align: center;
+  font-weight: 900;
+}

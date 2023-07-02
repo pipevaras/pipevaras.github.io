@@ -1,0 +1,103 @@
+.color-bg {
+  background-color: #28a745;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20pt;
+  font-weight: lighter;
+  line-height: 1.2;
+  color: #212529;
+  text-align: left;
+  padding: 1;
+}
+.proveedor {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: lighter;
+  line-height: 1.1875;
+  color: #707070;
+  text-align: left;
+  padding-top: 0.5em;
+  margin: 0;
+  border-top: 1px;
+  border-top-width: 10px;
+  border-top-color: #707070;
+}
+.direccion {
+  font-family: "Roboto", sans-serif;
+  font-size: 13pt;
+  font-weight: lighter;
+  line-height: 1.1538;
+  color: #707070;
+  text-align: left;
+}
+
+.thin {
+  border-color: #707070a0;
+  border-top-style: solid;
+  border-top-width: thin;
+}
+.precios {
+  display: flex;
+  justify-content: flex-end;
+}
+.precioantes {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: lighter;
+  line-height: 1.1875;
+  color: #707070;
+  text-align: left;
+  padding-right: 1em;
+  padding-top: 1em;
+  vertical-align: text-bottom;
+  margin: 0;
+}
+.precioahora {
+  font-family: "Roboto", sans-serif;
+  font-size: 20pt;
+  font-weight: medium;
+  line-height: 1.2;
+  color: #28a745;
+  text-align: left;
+  padding-top: 0.5em;
+  margin: 0;
+}
+
+.row {
+  justify-content: space-around;
+  padding: 1em;
+}
+
+footer {
+  background-color: #28a745;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
+.recibe {
+  font-family: "Roboto", sans-serif;
+  font-size: 21pt;
+  font-weight: medium;
+  line-height: 1.1428;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.final {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #707070;
+}
+.mb-3 {
+  padding-left: 2em;
+  padding-right: 2em;
+}

@@ -111,3 +111,8 @@ div .titulo {
 div .cajainv {
   height: 20px;
 }
+
+hr .linearesena {
+  height: 10px;
+  background-color: black;
+}

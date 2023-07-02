@@ -1,0 +1,76 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  background-color: green;
+}
+
+section {
+  display: flex;
+}
+
+section .izq {
+  background-color: rgb(140, 227, 147);
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .cabecera {
+  display: flex;
+}
+
+div .resena {
+  padding: 5%;
+  color: white;
+}
+
+h1 {
+  border-bottom: 5px solid white;
+  padding-bottom: 2%;
+}
+
+div .descrip {
+  padding-top: 2%;
+}
+
+div .fotocv {
+  padding: 3%;
+}
+
+div .datoscont {
+  display: flex;
+}
+
+div .contacto {
+  border-top: 2px solid black;
+  width: 80%;
+}
+
+div .aptitudes {
+  border-top: 2px solid black;
+  width: 80%;
+}
+div .idiomas {
+  border-top: 2px solid black;
+  width: 80%;
+}
+div .habilidades {
+  border-top: 2px solid black;
+  width: 80%;
+}
+
+div .tituloexp {
+  display: flex;
+  justify-content: space-between;
+}
+
+div .experiencia {
+  border-top: 2px solid black;
+  width: 80%;
+}
+
+div .formacion {
+  border-top: 2px solid black;
+  width: 80%;
+}
